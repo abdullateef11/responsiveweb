@@ -11,7 +11,7 @@ body{
 .firstcont{
     background-image: url("bg-hero-desktop.svg");
     width: 100%;
-    height: 625px;
+    height: 525px;
     background-size: 667px 145px;
 }
 .upper{
@@ -22,7 +22,7 @@ body{
 .upper  img{
     width:100px;
     height:20px;
-    margin-left: 20px;
+    margin-left: 35px;
 
 }
 .upper input{
@@ -32,6 +32,8 @@ body{
     align-content: center;
     flex-direction: column;
     border-radius: 32px;
+    border: none;
+    box-shadow: -1px 0.5px 5px;
     padding: 77px;
     padding-bottom: 19px;
     padding-top: 14px;
@@ -39,31 +41,34 @@ body{
     cursor: pointer;
 }
 .persuade h1{
-    width: 100%;
-    padding:74px;
+    width: 70%;
+    padding:14px;
     padding-top: 77px;
     padding-bottom: 20px;
-    margin-left: -38px;
+    margin-left: 22px;
+    margin-top: 1px;
 
 }
 .persuade p{
-    width: 100%;
-    padding:25px ;
+    width: 95%;
+    padding:45px ;
     padding-top:6px ;
     padding-bottom:13px ;
     word-spacing: 2px;
     margin-top: -10px;
-    margin-left: 11px;
+    margin-left: 0px;
     
 
 }
 .persuade input{
     width: 40%;
     text-align: center;
-    margin-left: 38px;
+    margin-left: 45px;
     margin-top: 7px;
-    padding:5px;
+    padding:15px;
+    border: none;
     border-radius: 30px;
+    box-shadow: -1px 0.5px 4px;
     color: white;
     background-color: hsl(322, 100%, 66%);
     word-spacing: 2px;
@@ -71,11 +76,12 @@ body{
     
 }
 .mockup img{
-    height: 510px;
-    width: 865px;
+    height: 400px;
+    width: 580px;
     margin-left: 20px;
     margin-top: 21px;
-    padding: 40px;
+    margin-right: 45px;
+    padding: 0px;
 
 }
 .intent{
@@ -88,7 +94,7 @@ body{
     border-radius: 15px;
     margin: 55px;
     width: 90%;
-    margin-left: 73px;
+    margin-left: 57px;
     box-shadow: -1px 0.5px 4px;
     padding: 0px;
     grid-template-columns: 400px 700px;
@@ -121,7 +127,7 @@ body{
     height: 250px;
     width: 350px;
     margin-top: 35px;
-    margin-left: 836px;
+    margin-left: 600px;
 }
 .thirdcont{
     display: grid;
@@ -130,7 +136,7 @@ body{
     margin: 31px;
     margin-top: -25px;
     width: 90%;
-    margin-left: 73px;
+    margin-left: 57px;
     box-shadow: -1px 0.5px 4px;
     padding: 0px;
     grid-template-columns: 700px 400px;
@@ -151,13 +157,13 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     margin-top: 81px;
-    margin-left: 92px;
+    margin-left: -115px;
     width: 80%;
 }
 .thirdcont p{
     width: 55%;
     padding: 5px;
-    margin-left: 808px;
+    margin-left: 600px;
     margin-top: -33px;
     color: rgb(95 98 98);
     grid-column-start: 2;
@@ -172,7 +178,7 @@ body{
     margin: 50px;
     margin-top: 20px;
     width: 90%;
-    margin-left: 73px;
+    margin-left: 57px;
     box-shadow: -1px 0.5px 4px;
     padding: 0px;
     grid-template-columns: 400px 700px;
@@ -203,7 +209,7 @@ body{
     height: 250px;
     width: 350px;
     margin-top: 35px;
-    margin-left: 350px;
+    margin-left: 200px;
 }
 .fifthcont{width: 60%;
 text-align: center;
@@ -212,10 +218,10 @@ grid-template-columns: 190px;
 grid-template-rows: 200px;
 background-color: white;
 margin: 40px;
-margin-left: 309px;
+margin-left: 245px;
 padding: 31px;
 box-shadow: -1px 0.5px 4px;
-border-radius: 18px;
+border-radius: 12px;
 padding-bottom: 30px;
 margin-bottom: -57px;
 position: relative;
@@ -233,9 +239,11 @@ transition-property: all;
     width: 30%;
 text-align: center;
 padding: 13px;
+border: none;
 border-radius: 34px;
 color: white;
 background-color: hsl(322, 100%, 66%);
+box-shadow: -1px 0.5px 4px;
 word-spacing: 1px;
 cursor: pointer;
 }
@@ -350,7 +358,7 @@ footer{
     margin-top: -16px;
     width: 30%;
     padding: 8px;
-    margin-left: 970px;
+    margin-left: 770px;
     color: #8d8181;
 }
 }
